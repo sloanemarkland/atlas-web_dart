@@ -24,9 +24,10 @@ class User {
       height: userJson['height'],
     );
   }
-
+// Create a method called toString that returns a formatted string
+// representation of the User object.
   @override
   String toString() {
-    return 'User(id: $id, name: $name, age: $age, height: $height)';
+    return 'User(id : $id ,name: $name,  age: $age, height: $height)';
   }
 }
